@@ -40,17 +40,23 @@ print('''
          __/ |                            __/ |                          __/ |
         |___/                            |___/                          |___/ 
 \n\n''')
-time.sleep(1)
-print("\033[1;35mLoading .")
-time.sleep(1)
-print("\033[1;35mLoading ..")
-time.sleep(1)
+time.sleep(0.2)
+print("\033[;35mLoading.")
+time.sleep(0.2)
+print("\033[1;35mLoading..")
+time.sleep(0.2)
 print("\033[1;35mLoading...")
-time.sleep(1)
+time.sleep(0.2)
 print("\033[1;35mLoading....")
-time.sleep(1)
+time.sleep(0.2)
 print("\033[1;35mLoading.....")
-time.sleep(1)
+time.sleep(0.2)
+print("\033[1;35mLoading......")
+time.sleep(0.2)
+print("\033[1;35mLoading.......")
+time.sleep(0.2)
+
+
 os.system("clear")
 print('''
 \033[1;35m
