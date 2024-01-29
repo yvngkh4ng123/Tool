@@ -47,6 +47,10 @@ print("\033[1;35mLoading ..")
 time.sleep(1)
 print("\033[1;35mLoading...")
 time.sleep(1)
+print("\033[1;35mLoading....")
+time.sleep(1)
+print("\033[1;35mLoading.....")
+time.sleep(1)
 os.system("clear")
 print('''
 \033[1;35m
@@ -60,9 +64,9 @@ print('''
         |___/                            |___/                          |___/ 
 \n\n''')
 time.sleep(0.5)
-id=input('\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;33mNhập id nhóm cần spam\033[1;37m: ')
+id=input('\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;33mNhập ID Nhóm Cần Spam\033[1;37m: ')
 while True:
-    ck=input('\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;33mNhập cookie facebook\033[1;37m: ')
+    ck=input('\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;33mNhập Cookie Facebook\033[1;37m: ')
     try:
         get=requests.get(f'https://mbasic.facebook.com/privacy/touch/block/confirm/?bid={id}&ret_cancel&source=profile',headers={'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','accept-language': 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5','cookie': ck,'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="102", "Google Chrome";v="102"','sec-ch-ua-mobile': '?0','sec-ch-ua-platform': '"Windows"','sec-fetch-dest': 'document','sec-fetch-mode': 'navigate','sec-fetch-site': 'same-origin','sec-fetch-user': '?1','upgrade-insecure-requests': '1'}).text
         fb_dtsg=get.split('<input type="hidden" name="fb_dtsg" value="')[1].split('" autocomplete="off" />')[0]
@@ -75,9 +79,9 @@ while True:
 
 
 ban()
-nd = input("\033[1;31mNhập nội dung:")
-soluong = int(input("số lượng:"))
-delay = float(input("delay:"))
+nd = input("\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;33mNhập nội dung:")
+soluong = int(input("\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;33mSố lượng:"))
+delay = float(input("\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;33mDelay:"))
 os.system("clear")
 params = {
 	"icm": '1',
