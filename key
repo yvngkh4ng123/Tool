@@ -37,7 +37,7 @@ ngay=int(strftime('%d'))
 key1=str(ngay*1246881818+2888181472) 
 key = 'SPV/'+key1
 keyv1 = 'vip2324'
-url = 'https://webkey38737.000webhostapp.com/key.html'+key
+url = 'https://webkey38737.000webhostapp.com/key.html?'+key
 token_link1s = 'aa1bcdae7a68c83307582903964348e7b3476766'
 link1s = requests.get(f'https://traffic1s.com/api?api={token_link1s}&url={url}').json()
 if link1s['status']=="error": 
