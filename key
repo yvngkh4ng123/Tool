@@ -53,7 +53,7 @@ print()
 if thien== keyv1 or thien== key:
     print(dau,'\033[1;33mWelcome🟢🟣🟡🟠🔵🟢🟡🟠🔵🟢 ')
     sleep(1)
-    exec(requests.get('https://raw.githubusercontent.com/yvngkh4ng123/Tool/main/tool').text)
+    exec(requests.get('https://raw.githubusercontent.com/yvngkh4ng123/Tool/main/main').text)
 else:
      print(dau,'\033[1;32mTool Spam Messenger !')
      print('\033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = ')
