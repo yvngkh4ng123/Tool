@@ -23,7 +23,11 @@ if (key==password):
 	time.sleep(1)
 	print("\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;32mVào Tool Thành Công !!")
 	time.sleep(1)
-os.system("clear")
+	
+	
+	os.system("clear")
+	
+	
 else:
 	print("\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;36mSai Key !!\n\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;36mMua Key Liên Hệ https://www.facebook.com/profile.php?id=61553155932204 !!")
 	exit()
