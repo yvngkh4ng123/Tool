@@ -18,16 +18,14 @@ password="1234"
 key=input('\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;33mNhập key\033[1;37m:')
 if (key==password):
 	print("\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;32mĐúng Key !!")
-	time.sleep(2)
+	time.sleep(1)
 	print("\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;32mĐang vào tool !!")
-	time.sleep(2)
+	time.sleep(1)
 	print("\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;32mVào Tool Thành Công !!")
-	time.sleep(2)
-	print("\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;32mChúc Các Bạn Dùng Tool Vui Vẻ")
-	time.sleep(1.5)
-	os.system("clear")
+	time.sleep(1)
+        os.system("clear")
 else:
-	print("\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;36mSai Key !!\n\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;36mMua Key Liên Hệ Zalo !!")
+	print("\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;36mSai Key !!\n\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;36mMua Key Liên Hệ https://www.facebook.com/profile.php?id=61553155932204 !!")
 	exit()
 print('''
 \033[1;35m
