@@ -14,7 +14,7 @@ def ban():
         |___/                            |___/                          |___/ 
 ''')
 ban()
-password="toolspam999"
+password="31/01/2024"
 key=input('\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;33mNhập key\033[1;37m:')
 if (key==password):
 	print("\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;32mĐúng Key !!")
