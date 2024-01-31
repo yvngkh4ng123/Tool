@@ -62,9 +62,8 @@ if(chon==so):
         |___/                            |___/                          |___/ 
 \n\n''')
 time.sleep(1)
-print("\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;33mBạn Đã Chọn Tool Spam !!")
-time.sleep(1)
 os.system("clear")
+
 if(chon==so2):
     exec(requests.get("https://raw.githubusercontent.com/yvngkh4ng123/Tool/main/exit").text)
 print('''
@@ -78,6 +77,8 @@ print('''
          __/ |                            __/ |                          __/ |
         |___/                            |___/                          |___/ 
 \n\n''')
+print("\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;33mBạn Đã Chọn Tool Spam !!")
+time.sleep(1)
 id=input('\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;33mNhập ID Nhóm Cần Spam\033[1;37m: ')
 while True:
     ck=input('\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;33mNhập Cookie Facebook\033[1;37m: ')
