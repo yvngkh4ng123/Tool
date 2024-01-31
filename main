@@ -44,10 +44,12 @@ print('''
 \n\n''')
 time.sleep(0.5)
 print ("\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;33m[1] Tool Spam")
-print ("\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;33m[2] Exit\n")
+print ("\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;33m[2] Tool Spam Nhiều Ngôn")
+print ("\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;33m[3] Exit\n")
 chon=input('\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;33mNhập số: ')
 so="1"
 so2="2"
+so3="3"
 if(chon==so):
       os.system("clear")
       print('''
@@ -65,7 +67,9 @@ time.sleep(1)
 os.system("clear")
 
 if(chon==so2):
-    exec(requests.get("https://raw.githubusercontent.com/yvngkh4ng123/Tool/main/exit").text)
+    exec(requests.get("https://raw.githubusercontent.com/yvngkh4ng123/Tool/main/nhieungon").text)
+if(chon==so3):
+	 exec(requests.get("https://raw.githubusercontent.com/yvngkh4ng123/Tool/main/exit").text)
 print('''
 \033[1;35m
   _             _    _                           _  ___                       
