@@ -49,10 +49,8 @@ chon=input('\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;33mNhập số: ')
 so="1"
 so2="2"
 if(chon==so):
-
-
-os.system("clear")
-    print('''
+      os.system("clear")
+      print('''
 \033[1;35m
   _             _    _                           _  ___                       
  | |           | |  | |                         | |/ / |                      
@@ -63,10 +61,10 @@ os.system("clear")
          __/ |                            __/ |                          __/ |
         |___/                            |___/                          |___/ 
 \n\n''')
-    time.sleep(0.5)
-    print("\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;33mBạn Đã Chọn Tool Spam !!")
-    time.sleep(1)
-    os.system("clear")
+time.sleep(1)
+print("\033[1;31m[👾\033[1;31m] \033[1;37m=> \033[1;33mBạn Đã Chọn Tool Spam !!")
+time.sleep(1)
+os.system("clear")
 if(chon==so2):
     exec(requests.get("https://raw.githubusercontent.com/yvngkh4ng123/Tool/main/exit").text)
 print('''
@@ -132,6 +130,5 @@ for i in range(soluong):
 	rq = requests.post("https://mbasic.facebook.com/messages/send/",params=params,headers=headers,data=data)
 	print("\033[1;31m Spam:",i+1)
 	time.sleep(delay)
-
 
 
