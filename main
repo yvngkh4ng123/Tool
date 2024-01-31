@@ -71,7 +71,7 @@ os.system("clear")
 if(chon==so2):
     exec(requests.get("https://raw.githubusercontent.com/yvngkh4ng123/Tool/main/nhieungon").text)
 if(chon==so3):
-    exec(requests.get("https://raw.githubusercontent.com/yvngkh4ng123/Tool/main/gonhay").text)
+    exec(requests.get("https://raw.githubusercontent.com/yvngkh4ng123/Tool/main/gonhay1").text)
 if(chon==so4):
     exec(requests.get("https://raw.githubusercontent.com/yvngkh4ng123/Tool/main/exit").text)
 print('''
